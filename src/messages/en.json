@@ -1,0 +1,110 @@
+{
+  "Nav": {
+    "projects": "Work",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "Hero": {
+    "greeting": "Damjan Pavlović",
+    "role": "I build websites that actually work.",
+    "description": "Full-stack developer from Montenegro. I help businesses launch fast, reliable web products — and I'm open to freelance projects and full-time roles.",
+    "cta_projects": "See recent work",
+    "cta_cv": "Download CV",
+    "status": "Available for work",
+    "stat1_label": "Based in",
+    "stat1_value": "Tivat, ME",
+    "stat2_label": "Focus",
+    "stat2_value": "Full-stack web",
+    "stat3_label": "Stack",
+    "stat3_value": "Next.js · Python · AWS"
+  },
+  "Projects": {
+    "title": "Selected work",
+    "subtitle": "A few projects I'm proud of — real clients, real problems, shipped.",
+    "view_project": "Read case study",
+    "view_code": "Source code",
+    "cocky": {
+      "title": "Cocky Scooters",
+      "description": "A scooter rental business in Tivat needed a complete digital presence before tourist season. I handled design, development, and print materials end-to-end.",
+      "problem": "No website, no brand identity, and a tight deadline before peak season.",
+      "result": "Launched a trilingual site with custom branding, blog, and print flyers — ready for the season."
+    },
+    "fashion": {
+      "title": "Fashion White",
+      "description": "A full e-commerce platform with product catalog, cart, and checkout. Along the way, I tracked down a Supabase security bug that was silently killing all mobile orders.",
+      "problem": "Mobile customers were completing checkout, but orders never reached the database.",
+      "result": "Found and fixed a Row Level Security misconfiguration. Orders now work reliably across all devices."
+    },
+    "ai_agents": {
+      "title": "Multi-Agent AI System",
+      "description": "An orchestration system where three specialized AI agents — Planner, Researcher, and Writer — collaborate to produce content autonomously.",
+      "problem": "Single-prompt AI workflows hit a wall when tasks get complex.",
+      "result": "A working pipeline that breaks down tasks, researches, and writes — built on FastAPI and React."
+    }
+  },
+  "ProjectDetail": {
+    "back": "← Back to work",
+    "overview": "Overview",
+    "problem": "The problem",
+    "solution": "What I built",
+    "result": "The outcome",
+    "stack": "Stack",
+    "links": "Links",
+    "view_live": "Visit site",
+    "view_code": "View source",
+    "cocky": {
+      "overview": "Cocky Scooters is a scooter rental business in Tivat, Montenegro. Before the tourist season, they needed a full digital presence — not just a website, but a complete brand.",
+      "solution": "I built a trilingual site (English, Montenegrin, Russian) with a blog for SEO, a custom design system, and a visual rebrand. On top of that, I designed and produced print flyers and physical stickers using Python and Pillow for image processing.",
+      "long_result": "The client got a fast, professional site ready for peak season — with a complete brand identity, print materials, and a content system they can manage themselves. No ongoing developer dependency."
+    },
+    "fashion": {
+      "overview": "Fashion White is an online clothing store. The goal was a complete shopping experience — from browsing to checkout — built to be fast and reliable.",
+      "solution": "I built the whole thing with React, Vite, and Supabase: product catalog with filters, cart, secure checkout, and order management. During testing, I noticed mobile orders were silently failing. After digging through Supabase logs, I traced it to a Row Level Security policy that was blocking anonymous mobile sessions.",
+      "long_result": "Fixed the RLS policy and shipped a fully working store. The debugging alone prevented what would have been a significant loss of mobile sales — and taught me a lot about Supabase security."
+    },
+    "ai_agents": {
+      "overview": "A demonstration of how specialized AI agents can collaborate to produce better output than any single model call. Built as a portfolio piece targeting AI engineering roles.",
+      "solution": "Three agents — Planner, Researcher, Writer — each with a focused responsibility, communicating through a structured pipeline. Planner decomposes the task, Researcher gathers context, Writer produces the final output. FastAPI backend, React and Vite frontend, deployed on Render and Vercel.",
+      "long_result": "A working demo showing how multi-agent systems handle complex tasks that single prompts can't. The architecture is the real output — clean separation of concerns, clear data flow between agents, and a UI that makes the process visible."
+    }
+  },
+  "TechStack": {
+    "title": "Stack",
+    "subtitle": "What I use day to day.",
+    "frontend": "Frontend",
+    "backend": "Backend",
+    "cloud": "Cloud & DevOps",
+    "tools": "Tools"
+  },
+  "About": {
+    "eyebrow": "About",
+    "title": "Hospitality first, then code.",
+    "p1": "Before I wrote my first line of code, I spent several years working in hospitality. It's not the background most developers have, but it taught me how to read people, stay calm when things get stressful, and actually deliver — not just promise. Those habits carried over more than I expected.",
+    "p2": "I learned development the long way — documentation, side projects, a lot of trial and error. No shortcut, no single mentor, just consistent work over time. I still approach new tools the same way: start with the docs, build something small, then something real.",
+    "p3": "These days I'm based in Tivat, building web applications for clients and open to joining a team full-time. I try to keep it simple: understand the problem, write code I'd be happy to inherit, and ship something that actually works.",
+    "certifications_title": "Certifications",
+    "cert_aws": "AWS Certified Cloud Practitioner",
+    "cert_python": "Certified Python Data Analyst",
+    "facts_title": "Quick facts",
+    "fact1_label": "Location",
+    "fact1_value": "Tivat, Montenegro",
+    "fact2_label": "Languages",
+    "fact2_value": "English, Serbian",
+    "fact3_label": "Years coding",
+    "fact3_value": "2+",
+    "fact4_label": "Open to",
+    "fact4_value": "Freelance & full-time"
+  },
+  "Contact": {
+    "title": "Let's talk",
+    "subtitle": "Working on something interesting, or looking to hire? I'd love to hear from you.",
+    "email_label": "Email",
+    "email_value": "damjan@damjanpavlovic.com",
+    "social_label": "Elsewhere",
+    "availability": "Currently open to freelance projects and full-time roles."
+  },
+  "Footer": {
+    "rights": "All rights reserved.",
+    "built_with": "Built with Next.js and too much coffee."
+  }
+}

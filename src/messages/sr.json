@@ -1,0 +1,110 @@
+{
+  "Nav": {
+    "projects": "Radovi",
+    "about": "O meni",
+    "contact": "Kontakt"
+  },
+  "Hero": {
+    "greeting": "Damjan Pavlović",
+    "role": "Pravim sajtove koji zaista funkcionišu.",
+    "description": "Full-stack developer iz Crne Gore. Pomažem firmama da lansiraju brze i pouzdane web proizvode — otvoren sam za freelance saradnju i stalno zaposlenje.",
+    "cta_projects": "Pogledaj radove",
+    "cta_cv": "Preuzmi CV",
+    "status": "Dostupan za angažman",
+    "stat1_label": "Lokacija",
+    "stat1_value": "Tivat, CG",
+    "stat2_label": "Fokus",
+    "stat2_value": "Full-stack web",
+    "stat3_label": "Stack",
+    "stat3_value": "Next.js · Python · AWS"
+  },
+  "Projects": {
+    "title": "Izabrani radovi",
+    "subtitle": "Nekoliko projekata na koje sam ponosan — pravi klijenti, pravi problemi, završeno.",
+    "view_project": "Pročitaj više",
+    "view_code": "Izvorni kod",
+    "cocky": {
+      "title": "Cocky Scooters",
+      "description": "Rent-a-scooter biznisu u Tivtu je trebalo kompletno digitalno prisustvo prije sezone. Odradio sam dizajn, razvoj i štampane materijale od početka do kraja.",
+      "problem": "Bez sajta, bez brend identiteta, i kratak rok do sezone.",
+      "result": "Lansiran trojezični sajt sa custom brendingom, blogom i štampanim flajerima — spreman za sezonu."
+    },
+    "fashion": {
+      "title": "Fashion White",
+      "description": "Kompletna e-commerce platforma sa katalogom, korpom i naplatom. Usput sam otkrio Supabase security bug koji je tiho blokirao sve mobilne narudžbine.",
+      "problem": "Mobilni kupci su završavali checkout, ali narudžbine nikad nisu stizale do baze.",
+      "result": "Pronašao i popravio Row Level Security konfiguraciju. Narudžbine sad rade pouzdano na svim uređajima."
+    },
+    "ai_agents": {
+      "title": "Multi-Agent AI sistem",
+      "description": "Sistem u kom tri specijalizovana AI agenta — Planner, Researcher i Writer — sarađuju i autonomno produciraju sadržaj.",
+      "problem": "Jednoprompt AI rešenja udare u zid kad zadaci postanu kompleksniji.",
+      "result": "Funkcionalan pipeline koji rastavlja zadatke, istražuje i piše — napravljen na FastAPI i React stacku."
+    }
+  },
+  "ProjectDetail": {
+    "back": "← Nazad na radove",
+    "overview": "Pregled",
+    "problem": "Problem",
+    "solution": "Šta sam napravio",
+    "result": "Ishod",
+    "stack": "Stack",
+    "links": "Linkovi",
+    "view_live": "Posjeti sajt",
+    "view_code": "Izvorni kod",
+    "cocky": {
+      "overview": "Cocky Scooters je rent-a-scooter biznis u Tivtu. Prije turističke sezone trebalo im je potpuno digitalno prisustvo — ne samo sajt, nego kompletan brend.",
+      "solution": "Napravio sam trojezični sajt (engleski, crnogorski, ruski) sa blogom za SEO, custom dizajn sistemom i kompletnim vizuelnim rebrendingom. Pored toga, dizajnirao sam i proizveo štampane flajere i fizičke stikere koristeći Python i Pillow biblioteku za obradu slika.",
+      "long_result": "Klijent je dobio brz, profesionalan sajt spreman za sezonu — kompletan brend identitet, štampane materijale i sistem za upravljanje sadržajem kojim mogu samostalno da barataju. Bez stalnog oslanjanja na developera."
+    },
+    "fashion": {
+      "overview": "Fashion White je online prodavnica odjeće. Cilj je bio kompletno iskustvo kupovine — od pregleda do naplate — napravljeno da bude brzo i pouzdano.",
+      "solution": "Sve sam radio u React, Vite i Supabase stacku: katalog sa filterima, korpa, sigurna naplata i upravljanje narudžbinama. Tokom testiranja sam primijetio da mobilne narudžbine tiho ne prolaze. Nakon kopanja po Supabase logovima, pronašao sam uzrok — Row Level Security pravilo koje je blokiralo anonimne mobilne sesije.",
+      "long_result": "Popravio sam RLS pravilo i lansirao potpuno funkcionalnu prodavnicu. Sam debugging je spriječio značajan gubitak mobilne prodaje — i mnogo me naučio o Supabase bezbjednosti."
+    },
+    "ai_agents": {
+      "overview": "Demonstracija kako specijalizovani AI agenti mogu da sarađuju i daju bolji rezultat od bilo kog pojedinačnog prompta. Napravljeno kao portfolio projekat za AI engineering pozicije.",
+      "solution": "Tri agenta — Planner, Researcher, Writer — svaki sa jasnom odgovornošću, komuniciraju kroz strukturirani pipeline. Planner rastavlja zadatak, Researcher prikuplja kontekst, Writer producira finalni rezultat. FastAPI backend, React i Vite frontend, deploy na Render i Vercel.",
+      "long_result": "Funkcionalan demo koji pokazuje kako multi-agent sistemi rješavaju složene zadatke koji su jednom promptu van domašaja. Arhitektura je pravi rezultat — čisto razdvajanje odgovornosti, jasan tok podataka između agenata i UI koji čini proces vidljivim."
+    }
+  },
+  "TechStack": {
+    "title": "Stack",
+    "subtitle": "Čime se služim svakodnevno.",
+    "frontend": "Frontend",
+    "backend": "Backend",
+    "cloud": "Cloud i DevOps",
+    "tools": "Alati"
+  },
+  "About": {
+    "eyebrow": "O meni",
+    "title": "Prvo ugostiteljstvo, pa kod.",
+    "p1": "Prije nego što sam napisao prvi red koda, proveo sam nekoliko godina u ugostiteljstvu. Nije to pozadina koju većina developera ima, ali me naučila da čitam ljude, da ostanem pribran kad postane naporno i da zaista isporučim — ne samo obećam. Te navike su se prenijele više nego što sam očekivao.",
+    "p2": "Programiranje sam naučio dužim putem — dokumentacija, lični projekti, dosta pokušaja i grešaka. Bez prečice, bez jednog mentora, samo dosljedan rad kroz vrijeme. Novim alatima i danas prilazim na isti način: krenem od dokumentacije, napravim nešto malo, pa onda nešto stvarno.",
+    "p3": "Danas sam u Tivtu, pravim web aplikacije za klijente i otvoren sam da se pridružim timu za stalno. Trudim se da bude jednostavno: razumjeti problem, pisati kod koji bih i sam rado naslijedio, i isporučiti nešto što zaista radi.",
+    "certifications_title": "Sertifikati",
+    "cert_aws": "AWS Certified Cloud Practitioner",
+    "cert_python": "Certified Python Data Analyst",
+    "facts_title": "Ukratko",
+    "fact1_label": "Lokacija",
+    "fact1_value": "Tivat, Crna Gora",
+    "fact2_label": "Jezici",
+    "fact2_value": "Engleski, Srpski",
+    "fact3_label": "Godine kodiranja",
+    "fact3_value": "2+",
+    "fact4_label": "Otvoren za",
+    "fact4_value": "Freelance i stalno"
+  },
+  "Contact": {
+    "title": "Javi se",
+    "subtitle": "Radite nešto zanimljivo ili tražite nekog ko će se pridružiti timu? Biću rad da čujem.",
+    "email_label": "Email",
+    "email_value": "damjan@damjanpavlovic.com",
+    "social_label": "Drugdje",
+    "availability": "Trenutno otvoren za freelance projekte i stalno zaposlenje."
+  },
+  "Footer": {
+    "rights": "Sva prava zadržana.",
+    "built_with": "Napravljeno sa Next.js-om i previše kafe."
+  }
+}
