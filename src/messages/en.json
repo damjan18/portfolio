@@ -6,7 +6,7 @@
   },
   "Hero": {
     "greeting": "Damjan Pavlović",
-    "role": "I build websites that actually work.",
+    "role": "I design and build web applications",
     "description": "Full-stack developer from Montenegro. I help businesses launch fast, reliable web products — and I'm open to freelance projects and full-time roles.",
     "cta_projects": "See recent work",
     "cta_cv": "Download CV",
@@ -54,13 +54,13 @@
     "view_code": "View source",
     "cocky": {
       "overview": "Cocky Scooters is a scooter rental business in Tivat, Montenegro. Before the tourist season, they needed a full digital presence — not just a website, but a complete brand.",
-      "solution": "I built a trilingual site (English, Montenegrin, Russian) with a blog for SEO, a custom design system, and a visual rebrand. On top of that, I designed and produced print flyers and physical stickers using Python and Pillow for image processing.",
+      "solution": "I built a trilingual site (English, Montenegrin, Russian) with a blog for SEO, a custom design system, and a visual rebrand. On top of that, I designed and produced print flyers and physical stickers.",
       "long_result": "The client got a fast, professional site ready for peak season — with a complete brand identity, print materials, and a content system they can manage themselves. No ongoing developer dependency."
     },
     "fashion": {
       "overview": "Fashion White is an online clothing store. The goal was a complete shopping experience — from browsing to checkout — built to be fast and reliable.",
-      "solution": "I built the whole thing with React, Vite, and Supabase: product catalog with filters, cart, secure checkout, and order management. During testing, I noticed mobile orders were silently failing. After digging through Supabase logs, I traced it to a Row Level Security policy that was blocking anonymous mobile sessions.",
-      "long_result": "Fixed the RLS policy and shipped a fully working store. The debugging alone prevented what would have been a significant loss of mobile sales — and taught me a lot about Supabase security."
+      "solution": "I built the whole thing with React, Vite, and Supabase: product catalog with filters, cart, secure checkout, and order management.",
+      "long_result": "Currently Fashion White is not in use but it demonstrates a complete online shop with all the features it needs and admin page for managing the store without code."
     },
     "ai_agents": {
       "overview": "A demonstration of how specialized AI agents can collaborate to produce better output than any single model call. Built as a portfolio piece targeting AI engineering roles.",
@@ -81,7 +81,7 @@
     "title": "Hospitality first, then code.",
     "p1": "Before I wrote my first line of code, I spent several years working in hospitality. It's not the background most developers have, but it taught me how to read people, stay calm when things get stressful, and actually deliver — not just promise. Those habits carried over more than I expected.",
     "p2": "I learned development the long way — documentation, side projects, a lot of trial and error. No shortcut, no single mentor, just consistent work over time. I still approach new tools the same way: start with the docs, build something small, then something real.",
-    "p3": "These days I'm based in Tivat, building web applications for clients and open to joining a team full-time. I try to keep it simple: understand the problem, write code I'd be happy to inherit, and ship something that actually works.",
+    "p3": "Currently I am building web applications for clients and open to joining a team full-time. I try to keep it simple: understand the problem, write code I'd be happy to inherit, and ship something that actually works.",
     "certifications_title": "Certifications",
     "cert_aws": "AWS Certified Cloud Practitioner",
     "cert_python": "Certified Python Data Analyst",
@@ -99,12 +99,9 @@
     "title": "Let's talk",
     "subtitle": "Working on something interesting, or looking to hire? I'd love to hear from you.",
     "email_label": "Email",
-    "email_value": "damjan@damjanpavlovic.com",
+    "email_value": "pavlovic.damjan1828@gmail.com",
     "social_label": "Elsewhere",
     "availability": "Currently open to freelance projects and full-time roles."
   },
-  "Footer": {
-    "rights": "All rights reserved.",
-    "built_with": "Built with Next.js and too much coffee."
-  }
+  "Footer": {}
 }

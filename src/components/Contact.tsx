@@ -51,20 +51,12 @@ export default function Contact() {
               </p>
               <div className="flex flex-wrap gap-3">
                 <a
-                  href="https://github.com/damjanpavlovic"
+                  href="https://github.com/damjan18"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="px-4 py-2 rounded-lg border border-gray-200 dark:border-gray-800 hover:border-emerald-500/50 hover:bg-emerald-500/5 transition-colors text-sm font-medium"
                 >
                   GitHub ↗
-                </a>
-                <a
-                  href="https://linkedin.com/in/damjanpavlovic"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="px-4 py-2 rounded-lg border border-gray-200 dark:border-gray-800 hover:border-emerald-500/50 hover:bg-emerald-500/5 transition-colors text-sm font-medium"
-                >
-                  LinkedIn ↗
                 </a>
               </div>
             </div>

@@ -6,7 +6,7 @@
   },
   "Hero": {
     "greeting": "Damjan Pavlović",
-    "role": "Pravim sajtove koji zaista funkcionišu.",
+    "role": "Dizajniram i pravim web aplikacije",
     "description": "Full-stack developer iz Crne Gore. Pomažem firmama da lansiraju brze i pouzdane web proizvode — otvoren sam za freelance saradnju i stalno zaposlenje.",
     "cta_projects": "Pogledaj radove",
     "cta_cv": "Preuzmi CV",
@@ -31,9 +31,9 @@
     },
     "fashion": {
       "title": "Fashion White",
-      "description": "Kompletna e-commerce platforma sa katalogom, korpom i naplatom. Usput sam otkrio Supabase security bug koji je tiho blokirao sve mobilne narudžbine.",
-      "problem": "Mobilni kupci su završavali checkout, ali narudžbine nikad nisu stizale do baze.",
-      "result": "Pronašao i popravio Row Level Security konfiguraciju. Narudžbine sad rade pouzdano na svim uređajima."
+      "description": "Kompletna e-commerce platforma sa katalogom, korpom i naplatom.",
+      "problem": "",
+      "result": ""
     },
     "ai_agents": {
       "title": "Multi-Agent AI sistem",
@@ -54,13 +54,13 @@
     "view_code": "Izvorni kod",
     "cocky": {
       "overview": "Cocky Scooters je rent-a-scooter biznis u Tivtu. Prije turističke sezone trebalo im je potpuno digitalno prisustvo — ne samo sajt, nego kompletan brend.",
-      "solution": "Napravio sam trojezični sajt (engleski, crnogorski, ruski) sa blogom za SEO, custom dizajn sistemom i kompletnim vizuelnim rebrendingom. Pored toga, dizajnirao sam i proizveo štampane flajere i fizičke stikere koristeći Python i Pillow biblioteku za obradu slika.",
+      "solution": "Napravio sam trojezični sajt (engleski, crnogorski, ruski) sa blogom za SEO, custom dizajn sistemom i kompletnim vizuelnim rebrendingom. Pored toga, dizajnirao sam i proizveo štampane flajere i fizičke stikere.",
       "long_result": "Klijent je dobio brz, profesionalan sajt spreman za sezonu — kompletan brend identitet, štampane materijale i sistem za upravljanje sadržajem kojim mogu samostalno da barataju. Bez stalnog oslanjanja na developera."
     },
     "fashion": {
       "overview": "Fashion White je online prodavnica odjeće. Cilj je bio kompletno iskustvo kupovine — od pregleda do naplate — napravljeno da bude brzo i pouzdano.",
-      "solution": "Sve sam radio u React, Vite i Supabase stacku: katalog sa filterima, korpa, sigurna naplata i upravljanje narudžbinama. Tokom testiranja sam primijetio da mobilne narudžbine tiho ne prolaze. Nakon kopanja po Supabase logovima, pronašao sam uzrok — Row Level Security pravilo koje je blokiralo anonimne mobilne sesije.",
-      "long_result": "Popravio sam RLS pravilo i lansirao potpuno funkcionalnu prodavnicu. Sam debugging je spriječio značajan gubitak mobilne prodaje — i mnogo me naučio o Supabase bezbjednosti."
+      "solution": "Sve sam radio u React, Vite i Supabase stacku: katalog sa filterima, korpa, sigurna naplata i upravljanje narudžbinama.",
+      "long_result": "Fashion White trenutno nije u upotrebi ali služi kao demonstracija web prodavnice sa svim funkcionalnostima uključujući i admin stranicu za menadžment stranice bez koda."
     },
     "ai_agents": {
       "overview": "Demonstracija kako specijalizovani AI agenti mogu da sarađuju i daju bolji rezultat od bilo kog pojedinačnog prompta. Napravljeno kao portfolio projekat za AI engineering pozicije.",
@@ -80,8 +80,8 @@
     "eyebrow": "O meni",
     "title": "Prvo ugostiteljstvo, pa kod.",
     "p1": "Prije nego što sam napisao prvi red koda, proveo sam nekoliko godina u ugostiteljstvu. Nije to pozadina koju većina developera ima, ali me naučila da čitam ljude, da ostanem pribran kad postane naporno i da zaista isporučim — ne samo obećam. Te navike su se prenijele više nego što sam očekivao.",
-    "p2": "Programiranje sam naučio dužim putem — dokumentacija, lični projekti, dosta pokušaja i grešaka. Bez prečice, bez jednog mentora, samo dosljedan rad kroz vrijeme. Novim alatima i danas prilazim na isti način: krenem od dokumentacije, napravim nešto malo, pa onda nešto stvarno.",
-    "p3": "Danas sam u Tivtu, pravim web aplikacije za klijente i otvoren sam da se pridružim timu za stalno. Trudim se da bude jednostavno: razumjeti problem, pisati kod koji bih i sam rado naslijedio, i isporučiti nešto što zaista radi.",
+    "p2": "Programiranje sam naučio dužim putem — dokumentacija, lični projekti, dosta pokušaja i grešaka. Bez prečice, bez mentora, samo dosljedan rad kroz vrijeme. Novim alatima i danas prilazim na isti način: krenem od dokumentacije, napravim nešto malo, pa onda nešto ozbiljno.",
+    "p3": "Danas sam u Tivtu, pravim web aplikacije za klijente i otvoren sam da se pridružim timu za stalno. Trudim se da bude jednostavno: razumjeti problem, pisati kod i isporučiti nešto što zaista radi.",
     "certifications_title": "Sertifikati",
     "cert_aws": "AWS Certified Cloud Practitioner",
     "cert_python": "Certified Python Data Analyst",
@@ -97,14 +97,11 @@
   },
   "Contact": {
     "title": "Javi se",
-    "subtitle": "Radite nešto zanimljivo ili tražite nekog ko će se pridružiti timu? Biću rad da čujem.",
+    "subtitle": "Radite nešto zanimljivo ili tražite nekog ko će se pridružiti timu? Rado ću pogledati vašu ponudu.",
     "email_label": "Email",
-    "email_value": "damjan@damjanpavlovic.com",
-    "social_label": "Drugdje",
+    "email_value": "pavlovic.damjan1828@gmail.com",
+    "social_label": "Ostalo",
     "availability": "Trenutno otvoren za freelance projekte i stalno zaposlenje."
   },
-  "Footer": {
-    "rights": "Sva prava zadržana.",
-    "built_with": "Napravljeno sa Next.js-om i previše kafe."
-  }
+  "Footer": {}
 }
