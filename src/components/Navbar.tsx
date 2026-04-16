@@ -42,7 +42,7 @@ export default function Navbar() {
           className="text-lg font-bold tracking-tight hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors"
           onClick={closeMenu}
         >
-          damjan<span className="text-emerald-500">.</span>
+          Portfolio<span className="text-emerald-500">Website</span>
         </Link>
 
         {/* Desktop */}
