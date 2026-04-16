@@ -1,12 +1,17 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
+import { setRequestLocale } from "next-intl/server";
+import { routing } from "@/i18n/routing";
 import { projects, getProjectBySlug } from "@/lib/projects";
 import ProjectDetailContent from "@/components/ProjectDetailContent";
 
 export function generateStaticParams() {
-  return projects.map((project) => ({
-    slug: project.slug,
-  }));
+  return routing.locales.flatMap((locale) =>
+    projects.map((project) => ({
+      locale,
+      slug: project.slug,
+    })),
+  );
 }
 
 const projectMeta: Record<string, { title: string; description: string }> = {
@@ -52,7 +57,10 @@ export default async function ProjectPage({
 }: {
   params: Promise<{ slug: string; locale: string }>;
 }) {
-  const { slug } = await params;
+  const { slug, locale } = await params;
+
+  setRequestLocale(locale);
+
   const project = getProjectBySlug(slug);
 
   if (!project) {
