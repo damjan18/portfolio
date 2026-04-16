@@ -4,7 +4,7 @@ export const projects = [
     key: "cocky",
     image: "/projects/cocky-scooters.png",
     stack: ["Next.js", "Tailwind CSS", "next-intl", "Vercel"],
-    liveUrl: null,
+    liveUrl: "https://scooter-rental-six.vercel.app/",
     githubUrl: null,
   },
   {
@@ -12,7 +12,7 @@ export const projects = [
     key: "fashion",
     image: "/projects/fashion-white.png",
     stack: ["React", "Vite", "Supabase", "Tailwind CSS"],
-    liveUrl: null,
+    liveUrl: "https://fashion-white.vercel.app/",
     githubUrl: null,
   },
   {
@@ -20,7 +20,7 @@ export const projects = [
     key: "ai_agents",
     image: "/projects/ai-multi-agent.png",
     stack: ["Python", "FastAPI", "React", "Vite", "OpenAI API"],
-    liveUrl: null,
+    liveUrl: "https://ai-agent-five-lake.vercel.app/",
     githubUrl: null,
   },
 ] as const;
